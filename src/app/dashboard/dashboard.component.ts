@@ -41,7 +41,7 @@ export class DashboardComponent implements OnInit {
 
       this.af.object(_donemBasePath + "/Ayarlar").set( _ayarlar );
 
-      this.klup_url=  _donemBasePath + "/macfoy/1/A";
+      this.klup_url=  _donemBasePath + "/oyuncular";
 
 
    

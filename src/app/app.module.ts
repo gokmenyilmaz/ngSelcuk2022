@@ -8,11 +8,13 @@ import { environment } from 'environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { SharedModule } from './shared/shared.module';
 import { DashboardComponent } from 'app/dashboard/dashboard.component';
+import { OyuncuListComponent } from './oyuncular/oyuncu-list/oyuncu-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    OyuncuListComponent
   ],
   imports: [
     BrowserModule,
