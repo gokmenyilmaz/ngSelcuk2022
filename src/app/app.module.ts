@@ -17,7 +17,6 @@ import { DashboardComponent } from 'app/dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     SharedModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],
